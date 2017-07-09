@@ -1,11 +1,11 @@
-baseurl = "http://hugo.spf13.com/"
+baseurl = "http://www.mishabalyasin.com/"
 languageCode = "en-us"
 title = "Misha's Blog"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
-disqusShortname = ""
-googleAnalytics = ""
+disqusShortname = "netlify-blog"
+googleAnalytics = "UA-76873820-3"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
