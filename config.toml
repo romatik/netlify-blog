@@ -1,6 +1,6 @@
 baseurl = "http://www.mishabalyasin.com/"
 languageCode = "en-us"
-title = "Misha's Blog"
+title = "My R-musings"
 theme = "hugo-future-imperfect"
 preserveTaxonomyNames = true
 paginate = 3
@@ -14,10 +14,10 @@ googleAnalytics = "UA-76873820-3"
     # Sets the meta tag description, usually reserved for the main page
     description          = "Blog about things in data science that interest me"
     # This will appear on the top left of the navigation bar
-    navbarTitle          = "Misha's Blog"
+    navbarTitle          = "My R-musings"
     # Social media buttons that appear on the sidebar
     socialAppearAtTop    = true
-    socialAppearAtBottom = true
+    socialAppearAtBottom = false
     # set this to the section name if section is not post
     viewMorePostLink     = "/post/"
 
@@ -44,7 +44,7 @@ googleAnalytics = "UA-76873820-3"
 # parms.intro will appear on the sidebar
 # This is optional, but it's suggested to use
 [params.intro]
-    header    = "My blog"
+    header    = "My R-musings"
 
     paragraph = ""
 
