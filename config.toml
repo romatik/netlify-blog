@@ -1,4 +1,4 @@
-baseurl = "http://www.mishabalyasin.com/"
+baseurl = "https://www.mishabalyasin.com/"
 DefaultContentLanguage = "en"
 title = "My R-musings"
 theme = "beautifulhugo"
