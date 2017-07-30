@@ -1,71 +1,30 @@
 baseurl = "http://www.mishabalyasin.com/"
-languageCode = "en-us"
+DefaultContentLanguage = "en"
 title = "My R-musings"
-theme = "hugo-future-imperfect"
-preserveTaxonomyNames = true
-paginate = 3
+theme = "beautifulhugo"
+metaDataFormat = "yaml"
+pygmentsUseClasses = true
+pygmentCodeFences = true
 disqusShortname = "netlify-blog"
 googleAnalytics = "UA-76873820-3"
 
 [permalinks]
     post = "/:year/:month/:day/:slug/"
 
-[params]
+[Params]
     # Sets the meta tag description, usually reserved for the main page
-    description          = "Blog about things in data science that interest me"
+    subtitle          = "Blog about things in data science that interest me"
     # This will appear on the top left of the navigation bar
     navbarTitle          = "My R-musings"
-    # Social media buttons that appear on the sidebar
-    socialAppearAtTop    = true
-    socialAppearAtBottom = false
     # set this to the section name if section is not post
     viewMorePostLink     = "/post/"
+    logo = "img/main/me.jpg"
+    dateFormat = "January 2, 2006"
+    commit = false
+    rss = true
+    comments = true
 
-# Optional Params
-    categoriesByCount    = true
-    includeReadingTime   = true
-    # The set of favicons used are based on the write-up from this link:
-    # https://github.com/audreyr/favicon-cheat-sheet
-    # Please see the favicon partial template for more information
-    loadFavicon          = false
-    faviconVersion       = ""
 
-    # Load custom CSS or JavaScript files. This replaces the deprecated params
-    # minifiedFilesCSS and minifiedFilesJS. The variable is an array so that you
-    # can load multiple files if necessary. You can also load the standard theme
-    # files by adding the value, "default".
-    # customCSS            = ["default", "/path/to/file"]
-    # customJS             = ["default", "/path/to/file"]
-
-    # Loading min files for exampleSite
-    customCSS            = ["/css/main.min.css"]
-    customJS             = ["/js/main.min.js"]
-
-# parms.intro will appear on the sidebar
-# This is optional, but it's suggested to use
-[params.intro]
-    header    = "My R-musings"
-
-    paragraph = ""
-
-    about     = "My name is Misha Balyasin and currently I work as a Data Scientist in Berlin, Germany. This blog is mostly about things I come across in my work/online and that I find interesting enough to write a bit about."
-
-# This will also appear on the sidebar.
-# A width of less than 100px is recommended
-# This is optional
-[params.intro.pic]
-    src       = "/img/main/me.jpg"
-    # modify your picture in the shape of a circle or
-    # future imperfect's hexagonal shape
-    circle    = true
-    imperfect = false
-    width     = "200"
-    alt       = "Misha Balyasin"
-
-# Adjust the amount of recent posts on the sidebar.
-# This is optional. The default value 5 will be used
-[params.postAmount]
-    sidebar = 2
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
@@ -81,39 +40,18 @@ googleAnalytics = "UA-76873820-3"
     weight = 2
 
 [[menu.main]]
-    name = "About"
-    url = "/about"
+    name = "Tags"
+    url = "tags"
     weight = 3
 
-# Insert your username and the icon will apear on the page as long as
-# socialAppearAtTop or socialAppearAtBottom is set to true in the params area
-# The social media icons will appear on the sidebar
-[social]
-    github          = "romatik"
-    bitbucket       = ""
-    jsfiddle        = ""
-    codepen         = ""
-    foursquare      = ""
-    dribbble        = ""
-    deviantart      = ""
-    behance         = ""
-    flickr          = ""
-    instagram       = ""
-    youtube         = ""
-    vimeo           = ""
-    vine            = ""
-    medium          = ""
-    wordpress       = ""
-    tumblr          = ""
-    xing            = ""
-    linkedin        = "mikhailbalyasin"
-    slideshare      = ""
-    stackoverflow   = ""
-    reddit          = ""
-    pinterest       = ""
-    googleplus      = ""
-    facebook        = ""
-    facebook_admin  = ""
-    twitter_domain  = ""
-    twitter         = ""
-    email           = "mikhail.balyasin+blog@gmail.com"
+[[menu.main]]
+    name = "About"
+    url = "/about"
+    weight = 4
+
+[Author]
+  name = "Misha Balyasin"
+  email = "mikhail.balyasin+blog@gmail.com"
+  github = "romatik"
+  linkedin = "mikhailbalyasin"
+  #stackoverflow = "users/XXXXXXX/username"
