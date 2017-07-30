@@ -18,13 +18,11 @@ googleAnalytics = "UA-76873820-3"
     navbarTitle          = "My R-musings"
     # set this to the section name if section is not post
     viewMorePostLink     = "/post/"
-    logo = "img/main/me.jpg"
+    logo = "img/me.jpg"
     dateFormat = "January 2, 2006"
     commit = false
     rss = true
     comments = true
-
-
 
 # Set up your menu items in the navigation bar
 # You can use identifier to prepend a font awesome icon to your text
