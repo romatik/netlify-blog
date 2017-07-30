@@ -45,3 +45,5 @@ m  # Print the map
 As you can see, both Trelliscope and Leaflet work out of the box without any hand-waving. Granted, Trelliscope looks a bit odd since there are some issues with (I guess) CSS/Javascript. But the main reason I would use it in the first place (interactivity) is still there. I'll update the post if I find a solution to make it look better.
 
 So, as far as keeping my writing monkey as far away from my back as possible, interactive graphs in `blogdown` seem to work just fine.
+
+**Update**: It looks like I was right about CSS/Javascript and changing theme made the problem with Trelliscope widget go away. As an aside, in the end I've ended up with exactly the same theme I've had on Github Pages, but this time it is in Hugo :).
