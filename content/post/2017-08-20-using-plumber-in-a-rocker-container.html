@@ -67,7 +67,8 @@ function(){
 <ol style="list-style-type: decimal">
 <li><p>Create <a href="http://docs.aws.amazon.com/AWSEC2/latest/UserGuide/launching-instance.html">Amazon Linux instance</a>. Free tier is available and enough for this type of endpoint.</p></li>
 <li><p>Install Docker as explained <a href="http://docs.aws.amazon.com/AmazonECS/latest/developerguide/docker-basics.html#install_docker">here</a>.</p></li>
-<li><p>Finally, we are ready to <code>docker run --rm -p 8000:8000 &lt;IMAGE_ID&gt; /app/plumber.R</code> (Notice that you need to use ID, not the name of the image).</p></li>
+<li><p><code>docker pull mishabalyasin/plumber-heart:working</code>.</p></li>
+<li><p>Finally, we are ready to <code>docker run --rm -d -p 8000:8000 &lt;IMAGE_ID&gt; /app/plumber.R</code> (Notice that you need to use ID, not the name of the image).</p></li>
 </ol>
 <p>Congratulations - you have your own API endpoint!</p>
 </div>
