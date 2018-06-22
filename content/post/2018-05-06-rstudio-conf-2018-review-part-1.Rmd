@@ -2,10 +2,19 @@
 title: 'rstudio::conf 2018 Review: Part 1'
 author: Misha Balyasin
 date: '2018-05-26'
+tags:
+  - rstudioconf
+  - overview
+  - conference
 categories:
   - meta
 slug: rstudio-conf-2018-review-part-1
 ---
+
+Part 2 is [here](https://www.mishabalyasin.com/2018/06/03/rstudio-conf-2018-review-part-2/)
+
+Part 3 is [here](https://www.mishabalyasin.com/2018/06/04/rstudio-conf-2018-review-part-3/)
+
 
 I've done review of useR!2017 conference [before](https://www.mishabalyasin.com/2017/09/09/user-2017-review-talks/), so I wanted to continue the trend and give an overview of rstudio::conf 2018. It happened all the way in January and I've had it in my list of things to do since then. Well, the time has come!
 
