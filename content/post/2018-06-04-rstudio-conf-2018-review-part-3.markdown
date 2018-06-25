@@ -13,6 +13,8 @@ Part 1 is [here](https://www.mishabalyasin.com/2018/05/26/rstudio-conf-2018-revi
 
 Part 2 is [here](https://www.mishabalyasin.com/2018/06/03/rstudio-conf-2018-review-part-2/)
 
+Part 4 is [here](https://www.mishabalyasin.com/2018/06/25/rstudio-conf-2018-review-part-4/)
+
 22. [Data-driven product development by Ramnath Vaidyanathan](https://www.rstudio.com/resources/videos/data-driven-product-development//).
 
 Ramnath from DataCamp shared their experience of using data to drive decisions. He didn't say anything completely new, but it is always reassuring to see that solid principles tend to produce consistent results. Another interesting point in his talk is a fact that they've decided to share their findings with instructors who create courses on DataCamp. This is sometimes overlooked, but it does make everyone's life easier since decisions can be made at every level and consequently improve the final product.

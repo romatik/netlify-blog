@@ -6,7 +6,6 @@ tags:
   - rstudioconf
   - overview
   - conference
-
 categories:
   - meta
 slug: rstudio-conf-2018-review-part-2
@@ -15,6 +14,9 @@ slug: rstudio-conf-2018-review-part-2
 Part 1 is [here](https://www.mishabalyasin.com/2018/05/26/rstudio-conf-2018-review-part-1/)
 
 Part 3 is [here](https://www.mishabalyasin.com/2018/06/22/rstudio-conf-2018-review-part-3/)
+
+Part 4 is [here](https://www.mishabalyasin.com/2018/06/25/rstudio-conf-2018-review-part-4/)
+
 
 12. [How I learned to stop worrying and love the firewall by Ian Lyttle](https://www.rstudio.com/resources/videos/how-i-learned-to-stop-worrying-and-love-the-firewall/).
 

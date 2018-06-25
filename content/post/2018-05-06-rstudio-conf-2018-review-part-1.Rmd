@@ -15,6 +15,8 @@ Part 2 is [here](https://www.mishabalyasin.com/2018/06/03/rstudio-conf-2018-revi
 
 Part 3 is [here](https://www.mishabalyasin.com/2018/06/22/rstudio-conf-2018-review-part-3/)
 
+Part 4 is [here](https://www.mishabalyasin.com/2018/06/25/rstudio-conf-2018-review-part-4/)
+
 
 I've done review of useR!2017 conference [before](https://www.mishabalyasin.com/2017/09/09/user-2017-review-talks/), so I wanted to continue the trend and give an overview of rstudio::conf 2018. It happened all the way in January and I've had it in my list of things to do since then. Well, the time has come!
 
