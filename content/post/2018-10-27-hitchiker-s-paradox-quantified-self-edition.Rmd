@@ -1,13 +1,12 @@
 ---
 title: 'Hitchiker''s paradox: Quantified-self edition'
 author: Misha Balyasin
-date: '2018-10-28'
-slug: hitchikers-paradox
+date: '2018-10-27'
 categories:
   - R
 tags:
   - R
-subtitle: ''
+slug: hitchikers-paradox
 ---
 
 Have you ever had this feeling that bus (or tram, or train, etc.) leaves exactly 1 minute before you get to the stop AND the next one is forever away? Or you come to a crossroad which is usually very quiet, but exactly as you are about to cross it, there are like 100 cars going in every direction?
