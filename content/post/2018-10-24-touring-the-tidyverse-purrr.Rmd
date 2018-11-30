@@ -14,11 +14,12 @@ Another R meetup, another talk about tidyverse. This time I've talked about `pur
 
 R markdown format of the presentation is [here](https://github.com/romatik/touring_the_tidyverse/blob/master/3_purrr.Rmd), code I've used during presentation is [here](https://github.com/romatik/touring_the_tidyverse/tree/master/purrr).
 
-Previous talks in the series:
+All talks in the series:
 
 1. `tidyr` - https://www.mishabalyasin.com/2018/05/27/touring-the-tidyverse-tidyr/
-2. `dplyr` - https://www.mishabalyasin.com/2018/07/26/touring-the-tidyverse-dplyr/
-3. `purrr` - https://www.mishabalyasin.com/2018/10/24/touring-the-tidyverse-purrr/
+1. `dplyr` - https://www.mishabalyasin.com/2018/07/26/touring-the-tidyverse-dplyr/
+1. `purrr` - https://www.mishabalyasin.com/2018/10/24/touring-the-tidyverse-purrr/
+1. `tidyeval` - https://www.mishabalyasin.com/2018/11/30/touring-the-tidyverse-tidyeval/
 
 ```{r, echo=FALSE}
 knitr::include_url("https://www.mishabalyasin.com/slides/3_purrr.html#1")
