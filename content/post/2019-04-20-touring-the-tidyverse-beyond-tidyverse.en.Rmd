@@ -1,0 +1,35 @@
+---
+title: 'Touring the tidyverse: beyond tidyverse'
+author: Misha Balyasin
+date: '2019-04-20'
+slug: touring-the-tidyverse-beyond-tidyverse
+categories:
+  - R
+tags:
+  - tidyverse
+  - talks
+subtitle: ''
+---
+In the final talk of the series I was looking bit beyond the `tidyverse`. Specifically, there are multiple package that don't belong to the "core" `tidyverse` suite of packages, but still subscribe to tidy philosophy. In total, there are around 100 packages that satisfy this criteria. Obviously, it's not possible to go over all of them, so to illustrate what I mean by "subscribing", I've decided to highlight three packages:
+
+1. `janitor` + `skimr` for data exploration.
+1. `tidytext` for NLP. 
+1. `tsibble` for time-series analysis.
+
+There is nothing special about these packages, just packages that I'm at least slightly familiar with and also they (at least on the face of it) don't necessarily fit into tidy structure, so showcasing them broadens the horizons of what you can or can't do within tidy dataframes.
+
+R markdown format of the presentation is [here](https://github.com/romatik/touring_the_tidyverse/blob/master/6_tidyverse.Rmd), code I've used during presentation is [here](https://github.com/romatik/touring_the_tidyverse/tree/master/tidyverse).
+
+All talks in the series:
+
+1. `tidyr` - https://www.mishabalyasin.com/2018/05/27/touring-the-tidyverse-tidyr/
+1. `dplyr` - https://www.mishabalyasin.com/2018/07/26/touring-the-tidyverse-dplyr/
+1. `purrr` - https://www.mishabalyasin.com/2018/10/24/touring-the-tidyverse-purrr/
+1. `tidyeval` - https://www.mishabalyasin.com/2018/11/30/touring-the-tidyverse-tidyeval/
+1. `tidymodels` - https://www.mishabalyasin.com/2019/03/03/touring-the-tidyverse-tidymodels/
+1. Beyond `tidyverse` - https://www.mishabalyasin.com/2019/04/20/touring-the-tidyverse-beyond-tidyverse/
+
+
+```{r, echo=FALSE}
+knitr::include_url("https://www.mishabalyasin.com/slides/6_tidyverse.html#1")
+```
