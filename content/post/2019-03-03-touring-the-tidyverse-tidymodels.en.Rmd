@@ -24,6 +24,7 @@ All talks in the series:
 1. `purrr` - https://www.mishabalyasin.com/2018/10/24/touring-the-tidyverse-purrr/
 1. `tidyeval` - https://www.mishabalyasin.com/2018/11/30/touring-the-tidyverse-tidyeval/
 1. `tidymodels` - https://www.mishabalyasin.com/2019/03/03/touring-the-tidyverse-tidymodels/
+1. Beyond `tidyverse` - https://www.mishabalyasin.com/2019/04/20/touring-the-tidyverse-beyond-tidyverse/
 
 ```{r, echo=FALSE}
 knitr::include_url("https://www.mishabalyasin.com/slides/5_tidymodels.html#1")
