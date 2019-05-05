@@ -1,0 +1,63 @@
+---
+title: Updating packages to R 3.6.0
+author: Misha Balyasin
+date: '2019-05-05'
+slug: updating-packages-to-r-3-6-0
+categories:
+  - R
+tags:
+  - future me
+subtitle: ''
+---
+
+R has recently updated to 3.6.0 and as you may or may not know it means that all packages with compiled parts (i.e., packages with C or C++) in them must be re-installed in order to be used. Some of the packages you had in 3.5.x might still work, but it's always a good idea to update them as well.
+
+So today, when R has updated itself through Linux magic, I found myself re-installing packages by hand. After typing `install.packages` way too many times, I've finally thought to myself: "This is ridicolous, why don't I automate this". 
+
+```{r, echo = FALSE}
+knitr::include_graphics("https://imgs.xkcd.com/comics/automation.png")
+```
+
+Source: https://xkcd.com/1319/
+
+But at least in this case it was more like this:
+
+```{r, echo = FALSE}
+knitr::include_graphics("https://imgs.xkcd.com/comics/is_it_worth_the_time.png")
+```
+
+Source: https://xkcd.com/1205/
+
+That is all to say, that here is a small script that you can use to do the same thing, but much faster than me. 
+
+```{r, eval = FALSE}
+# this makes it easier, so why not install these 
+# packages anyways upfront
+install.packages(c("magrittr", "fs", "purrr", "stringr"))
+
+# this is a path for your 3.5 library. 
+# You can also use `libPaths()` to see where its at.
+path <- "/path/to/R/x86_64-pc-linux-gnu-library/3.5/"
+
+library(magrittr)
+
+installed_before <- fs::dir_ls(path = path) %>% 
+  purrr::map_chr(~stringr::str_remove(.x, path)) %>% 
+  unlist() %>% 
+  unname() 
+
+installed_already <- as.data.frame(installed.packages()) %>% 
+  `[[`("Package") %>% 
+  as.character()
+
+to_install <- setdiff(installed_before, installed_already)
+
+install.packages(to_install)
+
+non_cran_packages <- as.data.frame(installed.packages()) %>% 
+  `[[`("Package") %>% 
+  as.character() %>%
+  {setdiff(installed_before, .)}
+```
+
+The script will leave you with the `non_cran_packages` character vector that you need to install by hand since there is no canonical place to look for them.
