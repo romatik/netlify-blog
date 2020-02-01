@@ -1,6 +1,0 @@
-_id: 18d31cd0-3fc4-11ea-ac8c-35abb4b3a28b
-path: about.md
-name: Laine
-email: 52a4b48fce351cf4789bcc9af14913f7
-message: "Dear, Mikhail Balyasin!\r\nCould You help me to find mistake in webscrapping script!\r\nI think, the my mistake is in incorrect html_node.\r\nMy task is to get data of cars prices abd cars models\r\nMy code is added below.\r\n\r\nlibrary(rvest)\r\nrequire(tidyverse)\r\nrequire(magrittr)\r\nlibrary(dplyr)\r\nlibrary(data.table)\r\nlibrary(RCurl)\r\nlibrary(XML)\r\nlibrary(xml2)\r\nlibrary(Rcrawler)\r\nlibrary(stringr)\r\n\r\nurl <- 'https://suchen.mobile.de/fahrzeuge/search.html?damageUnrepaired=NO_DAMAGE_UNREPAIRED&isSearchRequest=true&makeModelVariant1.makeId=1900&minFirstRegistrationDate=2018-01-01&pageNumber=15&scopeId=C&sfmr=false'\r\n# HTML dokument\r\nurll <- read_html(url)\r\n\r\ndomains <- urll %>%\r\n  #html_nodes(\".g-col-4\") %>%\r\n  #html_nodes(\".headline-block.u-margin-bottom-9.h3.u-text-break-word\") %>%\r\n  #html_nodes(\".u-text-break-word h3\") %>%\r\n  #html_nodes(xpath = '//*[@id=\"z1234\"]/div[3]/div/div[3]/div[4]/div[2]/div[3]/div[19]/a/div/div[2]/div[1]/div[2]/div[1]/span[1]') %>%\r\n  html_nodes(\".u-block h3\") %>%\r\n  html_text()\r\n# html_nodes(\".padding-central-buttons\") %>%\r\n\r\ndomains\r\n\r\nThanks before,\r\nLaine"
-date: '2020-01-25T22:43:25.330Z'
