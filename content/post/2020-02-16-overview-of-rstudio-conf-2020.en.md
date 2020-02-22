@@ -13,7 +13,7 @@ slug: rstudio-conf-2020-review-part-1
 
 All talks can be found here: https://resources.rstudio.com/rstudio-conf-2020. I've picked 30 talks in total, so will split them into 3 parts with 10 talks each.
 
-Part 2 is [here]()
+Part 2 is [here](https://www.mishabalyasin.com/2020/02/22/rstudio-conf-2020-review-part-2/)
 
 Part 3 is [here]()
 
