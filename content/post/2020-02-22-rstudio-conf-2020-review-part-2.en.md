@@ -15,7 +15,7 @@ All talks can be found here: https://resources.rstudio.com/rstudio-conf-2020. I'
 
 Part 1 is [here](https://www.mishabalyasin.com/2020/02/16/rstudio-conf-2020-review-part-1/)
 
-Part 3 is [here]()
+Part 3 is [here](https://www.mishabalyasin.com/2020/03/01/rstudio-conf-2020-review-part-3/)
 
 1. [What's new in TensorFlow for R by Daniel Falbel](https://resources.rstudio.com/rstudio-conf-2020/whats-new-in-tensorflow-for-r-daniel-falbel)
 

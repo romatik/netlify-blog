@@ -15,7 +15,7 @@ All talks can be found here: https://resources.rstudio.com/rstudio-conf-2020. I'
 
 Part 2 is [here](https://www.mishabalyasin.com/2020/02/22/rstudio-conf-2020-review-part-2/)
 
-Part 3 is [here]()
+Part 3 is [here](https://www.mishabalyasin.com/2020/03/01/rstudio-conf-2020-review-part-3/)
 
 1. [Object of type closure in not subsettable by Jenny Bryan](https://resources.rstudio.com/rstudio-conf-2020/object-of-type-closure-is-not-subsettable-jenny-bryan)
 
