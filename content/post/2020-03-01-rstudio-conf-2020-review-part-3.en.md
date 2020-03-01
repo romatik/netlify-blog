@@ -18,15 +18,15 @@ Part 1 is [here](https://www.mishabalyasin.com/2020/02/16/rstudio-conf-2020-revi
 
 Part 2 is [here](https://www.mishabalyasin.com/2020/02/22/rstudio-conf-2020-review-part-2/)
 
-1. [Interactivity and programming in the `tidyverse` by Lionele Henry](https://resources.rstudio.com/rstudio-conf-2020/interactivity-and-programming-in-the-tidyverse-lionel-henry)
+1. [Interactivity and programming in the `tidyverse` by Lionel Henry](https://resources.rstudio.com/rstudio-conf-2020/interactivity-and-programming-in-the-tidyverse-lionel-henry)
 
-Talk by Lionel about the tension that exists between interactive and programmatic uses of functions with `tidyeval`. One major point in his talk and other talks from `tidyverse` team is movement of `rlang` to lower and lower levels, meaning that if you are using `!!` and `rlang::quo`, then you need to learn quite a bit to use them correctly. However, if you are "regular" useR, then you might be able to get by with `{{` and `.data`/`.env` instead. This reflects the gradual nature of replacing user-facing features of `tidyeval` with higher and higher abstractions that should make lifes of R programmers easier.
+Talk by Lionel about the tension that exists between interactive and programmatic uses of functions with `tidyeval`. One major point in his talk and other talks from `tidyverse` team is movement of `rlang` to lower and lower levels, meaning that if you are using `!!` and `rlang::quo`, then you need to learn quite a bit to use them correctly. However, if you are "regular" useR, then you might be able to get by with `{{` and `.data`/`.env` instead. This reflects the gradual nature of replacing user-facing features of `tidyeval` with higher and higher abstractions that should make lives of R programmers easier.
 
 1. [Azure Pipelines and GitHub Actions by Jim Hester](https://resources.rstudio.com/rstudio-conf-2020/azure-pipelines-and-github-actions-jim-hester)
 
-With recent MS acquisition of GitHub, they are continiung the "embrace" stage of their strategy. What GitHub Actions allows you to do is to run your builds on multiple platforms at the same time (macOS, Windows and multiple flavors of Linux). Both Circle CI and Travis CI didn't allow for this flexibility, so you'd include Appveyor to just run your stuff on Windows. With GH Actions you eliminate all of this overhead AND you get multiple concurrent jobs for free (for academic, open source work at least). Sounds too good to be true, right? Well, let's see in couple of years if it is still as good as it is now. 
+With recent MS acquisition of GitHub, they are continuing the "embrace" stage of their strategy. What GitHub Actions allows you to do is to run your builds on multiple platforms at the same time (macOS, Windows and multiple flavors of Linux). Both Circle CI and Travis CI didn't allow for this flexibility, so you'd include Appveyor to just run your stuff on Windows. With GH Actions you eliminate all of this overhead AND you get multiple concurrent jobs for free (for academic, open source work at least). Sounds too good to be true, right? Well, let's see in couple of years if it is still as good as it is now. 
 
-But regardless of what'll happen down the line, `usethis` already ships with all the machinery you need to setup your package on GH, so you could start using GH actions with just few commands.
+But regardless of what will happen down the line, `usethis` already ships with all the machinery you need to setup your package on GH, so you could start using GH actions with just few commands.
 
 1. [Asynchronous programming in R by Winston Chang](https://resources.rstudio.com/rstudio-conf-2020/asynchronous-programming-in-r-winston-chang)
 
@@ -34,7 +34,7 @@ The talk is not so much about asynchronous programming as it is about `later` pa
 
 1. [`vctrs`: Creating custom vector classes with the `vctrs` package by Jesse Sadler](https://resources.rstudio.com/rstudio-conf-2020/vctrs-creating-custom-vector-classes-with-the-vctrs-package-jesse-sadler)
 
-Entertaining talk about how to create your own S3 class using `vctrs` package. `vctrs` provides you with robust framework and a path to follow if you want to have S3 class that has lots of useful properties: coercing, comparision, conversion etc. There are also couple of GH repos where this process is delineated even more clearly, so if you are thinking about creating your own S3 class, give `vctrs` and this talk a go.
+Entertaining talk about how to create your own S3 class using `vctrs` package. `vctrs` provides you with robust framework and a path to follow if you want to have S3 class that has lots of useful properties: coercing, comparison, conversion etc. There are also couple of GH repos where this process is delineated even more clearly, so if you are thinking about creating your own S3 class, give `vctrs` and this talk a go.
 
 1. [`future`: simple async, parallel and distributed processing in R by Henrik Bengtsson](https://resources.rstudio.com/rstudio-conf-2020/future-simple-async-parallel-amp-distributed-processing-in-r-whats-next-henrik-bengtsson)
 
